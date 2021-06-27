@@ -79,6 +79,14 @@ body {
   }
 }
 
+.infoPage{
+  position: absolute;
+  left: 0;
+  top: 25%;
+  padding: 0 10px;
+  width: 100%;
+  text-align: center;
+}
 
 #downloads {
   position: absolute;
