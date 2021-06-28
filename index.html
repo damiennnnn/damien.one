@@ -6,9 +6,10 @@
         <title>damien</title>
         <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/style.css" />
+
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css" />
         <!-- remember, jQuery is completely optional -->
+        <link rel="stylesheet" href="css/style.css" />
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="js/jquery.particleground.js"></script>
 
@@ -24,19 +25,21 @@
 
                 <a href="https://github.com/damiennnnn/" style="color: white;"><i class="fab fa-github" style="font-size: 2em;"></i></a>
                 &nbsp
-                <button type="button" id="showdownloads" style="color: white; cursor: pointer;">
+                <button type="button" id="showdownloads" style="cursor: pointer; color: white; background-color: transparent;">
                     <i class="fas fa-download" style="font-size: 2em;"></i>
                 </button>
                 &nbsp
-                <button type="button" id="showportfolio" style="color: white; cursor: pointer;">
+                <button type="button" id="showportfolio" style="cursor: pointer; color: white; background-color: transparent;">
                     <i class="fas fa-code" style="font-size: 2em;"></i>
                 </button>
+                &nbsp
+                <a href="https://panel.damien.one/" style="color: white;"><i class ="fas fa-server" style="font-size: 2em;"></i></a>
                 
                 <!-- fas fa-code -->
             </div>
 
             <div id="downloads" style="display: none;">
-                <button type="button" onclick="ShowIntro()" style="color: white; cursor: pointer;">
+                <button type="button" onclick="ShowIntro()" style="cursor: pointer; color: white; background-color: transparent;">
                     <i class="fas fa-caret-square-left" style="font-size: 2em;"></i>
                 </button>
                 <h3 style="font-family: 'Syncopate', sans-serif; font-weight: 10; display: inline-block;">
@@ -45,12 +48,17 @@
             </div>
 
             <div class="infoPage" id="portfolio" style="display: none;">
-                <button type="button" onclick="ShowIntro()" style="color: white; cursor: pointer;">
+                <button type="button" onclick="ShowIntro()" style="cursor: pointer; color: white; background-color: transparent;">
                     <i class="fas fa-caret-square-left" style="font-size: 2em;"></i>
                 </button>
                 <h3 style="font-family: 'Syncopate', sans-serif; font-weight: 10; display: inline-block;">
                     &nbspProjects
                 </h3>
+                <br><br>
+
+                <h3 style="font-family: 'Syncopate', sans-serif; font-weight: 10;display: inline;">workshopLua&nbsp&nbsp</h3>
+                <a href="https://github.com/damiennnnn/workshopLua" style="color: white; display: inline;"><i class="fab fa-github" style="font-size: 2em;"></i></a>
+                <p style="font-family: 'Syncopate', sans-serif; font-weight: 8; font-size: 16px; color: lightgray;">Garry's Mod workshop.lua generator</p>
             </div>
         </div>
 
